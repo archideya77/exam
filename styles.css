@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins' 'Arial' sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    margin-left: 253px;
+    display: flex;
+}
+li > a{
+    margin-right: 30px;
+    color: #263238;
+    font-weight: 500;
+    font-size: 20px;
+}
+.header-button{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 200px;
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 12px 50px;
+}
+.header-button:hover{
+    background-color: rgb(223, 78, 26);
+    color: white;
+}
+.britlex-main{
+    display: flex;
+    justify-content: space-between;
+}
+.britlex-main-text{
+    margin-top: 100px;
+}
+.britlex-main-lamp-img{
+    display: flex;
+}
+.britlex-main-lamp-img > img{
+    margin-left: 70px;
+}
+h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 80px;
+}
+.britlex-main-text > p{
+    width: 450px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8F95A5;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.britlex-main-button{
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+    background: #263238;
+    border-radius: 15px;
+    padding: 22px 80px;
+}
+.britlex-main-button:hover{
+    background-color: rgb(46, 46, 187);
+}
+.skills{
+    padding-top: 120px;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 20px;
+}
+.skills-cards{
+    display: flex;
+    margin-top: 80px;
+}
+.skills-card1{
+    width: 450px;
+    height: 830px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 45px;
+}
+h3{
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    margin-bottom: 8px;
+}
+.skills-card1 > p,
+.card2-text,
+.card3-text,
+.about-us-text,
+.prising-text,
+.contact-us-text{
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8F95A5;
+    margin-bottom: 45px;
+}
+.card1-button,
+.card2-button,
+.card3-button{
+    padding: 16px 60px;
+    background: #263238;
+    border-radius: 5px;
+    color: white;
+}
+.card2-sections{
+    width: 820px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.card2{
+    width: 400px;
+    height: 530px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+.writing-img{
+    margin-left: 60px;
+}
+.card2-middle-text{
+    margin-top: 45px;
+}
+.card3{
+    width: 820px;
+    height: 280px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 20px;
+}
+.cards-basic{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.about-us{
+    padding-top: 200px;
+}
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-us-left-part{
+    width: 400px;
+}
+.about-us-text{
+    margin-top: 20px;
+    width: 400px;
+    margin-bottom: 70px;
+}
+.about-us-left-bottom{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-weight: 600;
+    font-size: 48px;
+    color: #2A3246;
+}
+.number-text{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+}
+.prising-first-text{
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+.prising{
+    margin-top: 200px;
+}
+.prising-cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.prising-card1,
+.prising-card3{
+    width: 400px;
+    height: 550px;
+    padding: 0 20px;
+}
+.prising-card1-2-text{
+    margin-top: 55px;
+}
+.prising-img{
+    margin-bottom: 30px;
+}
+.prising-text{
+    margin-top: 19px;
+    margin-left: 30px;
+}
+.prising-h3{
+    text-align: center;
+}
+.prising-button{
+    width: 180px;
+    height: 40px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+}
+span{
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+}
+.prising-button-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #546269;
+    margin-left: 8px;
+}
+.prising-h3-card2{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.prising-button-2{
+    width: 180px;
+    height: 40px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+    margin-top: 60px;
+}
+.contact-us{
+    width: 100%;
+    margin-top: 230px;
+    display: flex;
+}
+.contact-us-main{
+    display: flex;
+}
+.contact-us-first-text{
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.contact-us-text{
+    margin-top: 60px;
+    width: 525px;
+}
+form{
+    margin-top: 100px;
+    display: flex;
+}
+input{
+    padding: 20px 100px 23px 30px;
+}
+input:hover{
+    border-color: rgb(19, 19, 151);
+}
+button{
+    background-color: #263238;
+    color: white;
+    border-radius: 10px;
+    padding: 23px 72px;
+    margin-left: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 182, 182);
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.footer-nav{
+    color: #8F95A5;
+    list-style: disc;
+}
+.footer-list{
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8F95A5;
+}
